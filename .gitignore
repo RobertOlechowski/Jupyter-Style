@@ -1,0 +1,4 @@
+/.idea
+/*.iml
+/Code/__pycache__/*.pyc
+/Demo/.ipynb_checkpoints

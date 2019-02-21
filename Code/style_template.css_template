@@ -1,0 +1,24 @@
+
+
+$selector .rendered_html table, $selector .rendered_html th, $selector .rendered_html tr, $selector .rendered_html td {
+  border: 1px  #c0c5ce solid;
+}
+
+$selector .rendered_html table  thead  th {
+  border-bottom: 1px solid black;
+  background-color: $row_header_color;
+}
+
+$selector .rendered_html table  thead  th:first-child {
+  border-right: 1px solid black;
+}
+
+$selector .rendered_html table  tbody  th {
+  border-right: 1px solid black;
+  background-color: $col_header_color;
+}
+
+
+
+
+
