@@ -22,14 +22,19 @@ iris = sns.load_dataset('iris')
 display(iris.head(5))
 ```
 
+![](https://github.com/RobertOlechowski/Jupyter-Style/blob/master/Doc/img2.png?raw=true)
+
+
 ```python
 style_generator.emit_style(
         col_header_color="#F02020",
         row_header_color="#AAAA40")
 ```
 
-## Show me the change in style in respect to Jupyter default
-TBD
+![](https://github.com/RobertOlechowski/Jupyter-Style/blob/master/Doc/img3.png?raw=true)
+
+## Show me how default Jupyter style looks like to compare.
+![](https://github.com/RobertOlechowski/Jupyter-Style/blob/master/Doc/img1.png?raw=true)
 
 ## How can I customise generated style?
  * **col_header_color** - Column header color
