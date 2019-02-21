@@ -22,7 +22,13 @@ iris = sns.load_dataset('iris')
 display(iris.head(5))
 ```
 
-## Show me the change in style
+```python
+style_generator.emit_style(
+        col_header_color="#F02020",
+        row_header_color="#AAAA40")
+```
+
+## Show me the change in style in respect to Jupyter default
 TBD
 
 ## How can I customise generated style?
