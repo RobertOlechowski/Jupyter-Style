@@ -4,7 +4,9 @@
 This is style generator, you can simply generate inline css to insert into your Jupyter notebook to change look of tables in your preview.
 
 ## How to install:
-Just copy files from "code" directory to your project and import it. In **Demo** directory you can find examples 
+```bash
+pip install jupyter-style
+```
 
 ## What python version is required?
 Code is compatible with python >= 3.5
@@ -13,7 +15,7 @@ Code is compatible with python >= 3.5
 ```python
 from IPython.display import HTML, display
 import seaborn as sns
-from Code import StyleHelper
+from jupyterStyle import StyleHelper
 
 style_generator = StyleHelper.StyleHelper()
 style_generator.emit_style()
@@ -42,7 +44,6 @@ style_generator.emit_style(
  * **selector** - css selector to apply style only to selected elements
 
 ## ToDo:
-* Prepare pip package
 * Add parameters for: lines, margins, shadows, etc.
 * Add a support for predefined themes 
 

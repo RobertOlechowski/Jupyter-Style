@@ -2,3 +2,7 @@
 /*.iml
 /Code/__pycache__/*.pyc
 /Demo/.ipynb_checkpoints
+/jupyter_style.egg-info
+/dist
+/build
+/jupyterStyle/__pycache__/*.pyc
